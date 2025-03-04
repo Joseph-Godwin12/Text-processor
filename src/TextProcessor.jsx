@@ -167,7 +167,7 @@ export default function TextProcessor() {
       )}
       <div className="flex gap-2">
         <textarea
-          className="flex-1 p-2 border-2 rounded resize-none h-20 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="flex-1 p-2 border-2 rounded resize-none h-14 focus:outline-none focus:ring-2 focus:ring-blue-500"
           value={inputText}
           onChange={(e) => setInputText(e.target.value)}
           placeholder="Type your message here..."
