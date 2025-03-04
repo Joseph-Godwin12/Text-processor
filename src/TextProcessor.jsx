@@ -113,7 +113,7 @@ export default function TextProcessor() {
   }, [messages, loading]);
 
   return (
-    <div className="flex flex-col h-screen max-w-4xl mx-auto p-4">
+    <div className="flex flex-col h-screen max-w-4xl mx-auto p-4 overflow-hidden">
       {welcomeMessage && (
         <div className="flex flex-wrap items-center justify-center mt-16 mb-4 p-4  text-blue-800 rounded shadow">
           👋 Welcome! Enter text to detect language and translate.
